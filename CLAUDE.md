@@ -36,7 +36,7 @@ taigi-emojis/
 ├── scripts/generate.py
 ├── dist/emoji.json   # generated artifact both platforms read (committed)
 ├── tests/            # pytest golden specs + drift guard
-├── platforms/        # shared modules — both consume dist/emoji.json (symlinked in)
+├── platforms/        # shared modules — bundle generated dist/emoji.json copies (drift-guarded)
 │   ├── apple/        # Swift package sources (manifest = Package.swift at root)
 │   └── android/      # Android library module (com.android.library)
 ├── Package.swift     # iOS SPM manifest (root, conventional)

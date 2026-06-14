@@ -1,6 +1,7 @@
 // Android library wrapping the shared dist/emoji.json. Consumed by the app as an included
 // Gradle module (the app owns plugin versions + the AGP/Kotlin toolchain). assets/emoji.json
-// is a symlink to the repo's single generated dist/emoji.json — no copy, no drift.
+// is a generated copy of the repo's single dist/emoji.json (real file, not a symlink — Gradle
+// bundles the link, not its target); the drift-guard test keeps all copies byte-identical.
 //
 // In the app's settings.gradle(.kts):
 //   include(":taigi-emojis")
@@ -12,7 +13,7 @@ plugins {
 }
 
 android {
-    namespace = "com.taigikeyboard.emojis"
+    namespace = "com.siansiansu.taigikeyboard.emojis"
     compileSdk = 34
 
     defaultConfig {
