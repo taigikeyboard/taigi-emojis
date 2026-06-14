@@ -11,9 +11,7 @@ Currently pinned to **Unicode Emoji 17.0** (CLDR 48) — 1889 emoji.
 - `src/overrides.tsv` — the only hand-edited file (add/curate emoji + Taigi keywords)
 - `scripts/generate.py` — the generator (stdlib-only, runs under bare `python3`)
 - `data/` — pinned upstream snapshots (emoji-test.txt + CLDR xml); see `data/SOURCES.md`
-- `dist/emoji.json` — generated artifact both platforms read (committed)
-- `platforms/apple` + `platforms/android` — shared Swift / Kotlin modules exposing
-  `TaigiEmojiStore` (load + search + glyph filter) over the json; see `platforms/README.md`
+- `dist/emoji.json` — the generated artifact both apps read directly (committed)
 - `tests/` — golden specs + drift guard
 
 ## Add or curate emoji
@@ -56,6 +54,6 @@ See `data/SOURCES.md` for origins, versions, and the version-pin rationale.
 `dist/emoji.json` — categories → emoji (base, codepoints, name, skin-tone variations,
 merged + per-locale keywords). Schema in `.claude/rules/output-contract.md`.
 
-Both apps consume the json via the shared `platforms/` modules — no platform-side hardcoded
-emoji lists. Distributed as a git submodule; each app glyph-filters emoji its OS font cannot
-render at load (test the whole grapheme cluster, not per-scalar).
+Both apps read `dist/emoji.json` directly and decode it into their own native model — no shared
+platform modules, no platform-side hardcoded emoji lists. Distributed as a git submodule; each app
+glyph-filters emoji its OS font cannot render at load (test the whole grapheme cluster, not per-scalar).

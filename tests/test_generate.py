@@ -118,10 +118,9 @@ def test_generation_is_deterministic() -> None:
     assert generate.generate() == generate.generate()
 
 
-def test_committed_outputs_match_regenerate(document: dict) -> None:
-    for path in generate.OUTPUT_PATHS:
-        committed = json.loads(path.read_text(encoding="utf-8"))
-        assert committed == document, f"{path} is stale — run `make build`"
+def test_committed_output_matches_regenerate(document: dict) -> None:
+    committed = json.loads(generate.OUTPUT_PATH.read_text(encoding="utf-8"))
+    assert committed == document, f"{generate.OUTPUT_PATH} is stale — run `make build`"
 
 
 def _single_base(base: str = "😀") -> tuple[list, dict]:
