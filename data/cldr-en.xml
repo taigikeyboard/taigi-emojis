@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
-<!-- Copyright © 1991-2024 Unicode, Inc.
+<!-- Copyright © 1991-2025 Unicode, Inc.
 For terms of use, see http://www.unicode.org/copyright.html
 SPDX-License-Identifier: Unicode-3.0
 CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
@@ -718,20 +718,6 @@ annotations.
 		<annotation cp="♭" type="tts">flat</annotation>
 		<annotation cp="♯">dièse | diesis | music | note | sharp</annotation>
 		<annotation cp="♯" type="tts">sharp</annotation>
-		<annotation cp="🪉">cupid | harp | instrument | love | music | orchestra</annotation>
-		<annotation cp="🪉" type="tts">harp</annotation>
-		<annotation cp="🪏">bury | dig | garden | hole | plant | scoop | shovel | snow | spade</annotation>
-		<annotation cp="🪏" type="tts">shovel</annotation>
-		<annotation cp="🪾">bare | barren | branches | dead | drought | leafless | tree | trunk | winter | wood</annotation>
-		<annotation cp="🪾" type="tts">leafless tree</annotation>
-		<annotation cp="🫆">clue | crime | detective | fingerprint | forensics | identity | mystery | print | safety | trace</annotation>
-		<annotation cp="🫆" type="tts">fingerprint</annotation>
-		<annotation cp="🫜">beet | food | garden | radish | root | salad | turnip | vegetable | vegetarian</annotation>
-		<annotation cp="🫜" type="tts">root vegetable</annotation>
-		<annotation cp="🫟">drip | holi | ink | liquid | mess | paint | spill | splatter | stain</annotation>
-		<annotation cp="🫟" type="tts">splatter</annotation>
-		<annotation cp="🫩">bags | bored | exhausted | eyes | face | fatigued | late | sleepy | tired | weary</annotation>
-		<annotation cp="🫩" type="tts">face with bags under eyes</annotation>
 		<annotation cp="😀">cheerful | cheery | face | grin | grinning | happy | laugh | nice | smile | smiling | teeth</annotation>
 		<annotation cp="😀" type="tts">grinning face</annotation>
 		<annotation cp="😃">awesome | big | eyes | face | grin | grinning | happy | mouth | open | smile | smiling | teeth | yay</annotation>
@@ -846,6 +832,8 @@ annotations.
 		<annotation cp="🤤" type="tts">drooling face</annotation>
 		<annotation cp="😴">bed | bedtime | face | good | goodnight | nap | night | sleep | sleeping | tired | whatever | yawn | zzz</annotation>
 		<annotation cp="😴" type="tts">sleeping face</annotation>
+		<annotation cp="🫩">bags | bored | exhausted | eyes | face | fatigued | late | sleepy | tired | weary</annotation>
+		<annotation cp="🫩" type="tts">face with bags under eyes</annotation>
 		<annotation cp="😷">cold | dentist | dermatologist | doctor | dr | face | germs | mask | medical | medicine | sick</annotation>
 		<annotation cp="😷" type="tts">face with medical mask</annotation>
 		<annotation cp="🤒">face | ill | sick | thermometer</annotation>
@@ -900,6 +888,9 @@ annotations.
 		<annotation cp="😲" type="tts">astonished face</annotation>
 		<annotation cp="😳">amazed | awkward | crazy | dazed | dead | disbelief | embarrassed | face | flushed | geez | heat | hot | impressed | jeez | what | wow</annotation>
 		<annotation cp="😳" type="tts">flushed face</annotation>
+		<!-- Generated lines from Emoji Data v17, using GenerateCldrData.java -->
+		<annotation cp="🫪">anxiety | bloated | panic | shocked | surprised | vulnerable</annotation> <!-- 1FAEA -->
+		<annotation cp="🫪" type="tts">distorted face</annotation>
 		<annotation cp="🥺">begging | big | eyes | face | mercy | not | pleading | please | pretty | puppy | sad | why</annotation>
 		<annotation cp="🥺" type="tts">pleading face</annotation>
 		<annotation cp="🥹">admiration | aww | back | cry | embarrassed | face | feelings | grateful | gratitude | holding | joy | please | proud | resist | sad | tears</annotation> <!-- 1F979 -->
@@ -1046,6 +1037,8 @@ annotations.
 		<annotation cp="💯" type="tts">hundred points</annotation>
 		<annotation cp="💢">anger | angry | comic | mad | symbol | upset</annotation>
 		<annotation cp="💢" type="tts">anger symbol</annotation>
+		<annotation cp="🫯">argument | brawl | debate | disagreement | fight | ruckus | wrestle</annotation> <!-- 1FAEF -->
+		<annotation cp="🫯" type="tts">fight cloud</annotation>
 		<annotation cp="💥">bomb | boom | collide | collision | comic | explode</annotation>
 		<annotation cp="💥" type="tts">collision</annotation>
 		<annotation cp="💫">comic | dizzy | shining | shooting | star | stars</annotation>
@@ -1510,6 +1503,8 @@ annotations.
 		<annotation cp="🧟‍♀" type="tts">woman zombie</annotation>
 		<annotation cp="🧌">fairy | fantasy | monster | tale | troll | trolling</annotation> <!-- 1F9CC -->
 		<annotation cp="🧌" type="tts">troll</annotation>
+		<annotation cp="🫈">bigfoot | cryptid | forest | giant | hairy | sasquatch | woodwose | yeti</annotation> <!-- 1FAC8 -->
+		<annotation cp="🫈" type="tts">hairy creature</annotation>
 		<annotation cp="💆">face | getting | headache | massage | person | relax | relaxing | salon | soothe | spa | tension | therapy | treatment</annotation>
 		<annotation cp="💆" type="tts">person getting massage</annotation>
 		<annotation cp="💆‍♂">face | getting | headache | man | massage | relax | relaxing | salon | soothe | spa | tension | therapy | treatment</annotation>
@@ -1564,6 +1559,8 @@ annotations.
 		<annotation cp="🏃‍♂" type="tts">man running</annotation>
 		<annotation cp="🏃‍♀">fast | hurry | marathon | move | quick | race | racing | run | rush | speed | woman</annotation>
 		<annotation cp="🏃‍♀" type="tts">woman running</annotation>
+		<annotation cp="🧑‍🩰">ballet | dancer</annotation> <!-- 1F9D1 200D 1FA70 -->
+		<annotation cp="🧑‍🩰" type="tts">ballet dancer</annotation>
 		<annotation cp="💃">dance | dancer | dancing | elegant | festive | flair | flamenco | groove | let’s | salsa | tango | woman</annotation>
 		<annotation cp="💃" type="tts">woman dancing</annotation>
 		<annotation cp="🕺">dance | dancer | dancing | elegant | festive | flair | flamenco | groove | let’s | man | salsa | tango</annotation>
@@ -1716,6 +1713,8 @@ annotations.
 		<annotation cp="🧑‍🧒‍🧒" type="tts">family: adult, child, child</annotation>
 		<annotation cp="👣">barefoot | clothing | footprint | footprints | omw | print | walk</annotation>
 		<annotation cp="👣" type="tts">footprints</annotation>
+		<annotation cp="🫆">clue | crime | detective | fingerprint | forensics | identity | mystery | print | safety | trace</annotation>
+		<annotation cp="🫆" type="tts">fingerprint</annotation>
 		<annotation cp="🦰">ginger | hair | red | redhead</annotation>
 		<annotation cp="🦰" type="tts">red hair</annotation>
 		<annotation cp="🦱">afro | curly | hair | ringlets</annotation>
@@ -1924,6 +1923,8 @@ annotations.
 		<annotation cp="🐋" type="tts">whale</annotation>
 		<annotation cp="🐬">animal | beach | dolphin | flipper | ocean</annotation>
 		<annotation cp="🐬" type="tts">dolphin</annotation>
+		<annotation cp="🫍">marine | ocean | whale</annotation> <!-- 1FACD -->
+		<annotation cp="🫍" type="tts">orca</annotation>
 		<annotation cp="🦭">animal | lion | ocean | sea | seal</annotation>
 		<annotation cp="🦭" type="tts">seal</annotation>
 		<annotation cp="🐟">animal | dinner | fish | fishes | fishing | Pisces | zodiac</annotation>
@@ -1942,6 +1943,16 @@ annotations.
 		<annotation cp="🪸" type="tts">coral</annotation>
 		<annotation cp="🪼">animal | aquarium | burn | invertebrate | jelly | jellyfish | life | marine | ocean | ouch | plankton | sea | sting | stinger | tentacles</annotation> <!-- 1FABC -->
 		<annotation cp="🪼" type="tts">jellyfish</annotation>
+		<annotation cp="🦀">Cancer | crab | zodiac</annotation>
+		<annotation cp="🦀" type="tts">crab</annotation>
+		<annotation cp="🦞">animal | bisque | claws | lobster | seafood</annotation>
+		<annotation cp="🦞" type="tts">lobster</annotation>
+		<annotation cp="🦐">food | shellfish | shrimp | small</annotation>
+		<annotation cp="🦐" type="tts">shrimp</annotation>
+		<annotation cp="🦑">animal | food | mollusk | squid</annotation>
+		<annotation cp="🦑" type="tts">squid</annotation>
+		<annotation cp="🦪">diving | oyster | pearl</annotation>
+		<annotation cp="🦪" type="tts">oyster</annotation>
 		<annotation cp="🐌">animal | escargot | garden | nature | slug | snail</annotation>
 		<annotation cp="🐌" type="tts">snail</annotation>
 		<annotation cp="🦋">butterfly | insect | pretty</annotation>
@@ -2030,6 +2041,8 @@ annotations.
 		<annotation cp="🪺" type="tts">nest with eggs</annotation>
 		<annotation cp="🍄">fungus | mushroom | toadstool</annotation>
 		<annotation cp="🍄" type="tts">mushroom</annotation>
+		<annotation cp="🪾">bare | barren | branches | dead | drought | leafless | tree | trunk | winter | wood</annotation>
+		<annotation cp="🪾" type="tts">leafless tree</annotation>
 		<annotation cp="🍇">Dionysus | fruit | grape | grapes</annotation>
 		<annotation cp="🍇" type="tts">grapes</annotation>
 		<annotation cp="🍈">cantaloupe | fruit | melon</annotation>
@@ -2106,6 +2119,8 @@ annotations.
 		<annotation cp="🫛" type="tts">pea pod</annotation>
 		<annotation cp="🍄‍🟫">food | fungi | fungus | mushroom | nature | pizza | portobello | shiitake | shroom | spore | sprout | toppings | truffle | vegetable | vegetarian | veggie</annotation> <!-- 1F344 200D 1F7EB -->
 		<annotation cp="🍄‍🟫" type="tts">brown mushroom</annotation>
+		<annotation cp="🫜">beet | food | garden | radish | root | salad | turnip | vegetable | vegetarian</annotation>
+		<annotation cp="🫜" type="tts">root vegetable</annotation>
 		<annotation cp="🍞">bread | carbs | food | grain | loaf | restaurant | toast | wheat</annotation>
 		<annotation cp="🍞" type="tts">bread</annotation>
 		<annotation cp="🥐">bread | breakfast | crescent | croissant | food | french | roll</annotation>
@@ -2208,16 +2223,6 @@ annotations.
 		<annotation cp="🥠" type="tts">fortune cookie</annotation>
 		<annotation cp="🥡">box | chopsticks | delivery | food | oyster | pail | takeout</annotation>
 		<annotation cp="🥡" type="tts">takeout box</annotation>
-		<annotation cp="🦀">Cancer | crab | zodiac</annotation>
-		<annotation cp="🦀" type="tts">crab</annotation>
-		<annotation cp="🦞">animal | bisque | claws | lobster | seafood</annotation>
-		<annotation cp="🦞" type="tts">lobster</annotation>
-		<annotation cp="🦐">food | shellfish | shrimp | small</annotation>
-		<annotation cp="🦐" type="tts">shrimp</annotation>
-		<annotation cp="🦑">animal | food | mollusk | squid</annotation>
-		<annotation cp="🦑" type="tts">squid</annotation>
-		<annotation cp="🦪">diving | oyster | pearl</annotation>
-		<annotation cp="🦪" type="tts">oyster</annotation>
 		<annotation cp="🍦">cream | dessert | food | ice | icecream | restaurant | serve | soft | sweet</annotation>
 		<annotation cp="🍦" type="tts">soft ice cream</annotation>
 		<annotation cp="🍧">dessert | ice | restaurant | shaved | sweet</annotation>
@@ -2318,6 +2323,8 @@ annotations.
 		<annotation cp="🏔" type="tts">snow-capped mountain</annotation>
 		<annotation cp="⛰">mountain</annotation>
 		<annotation cp="⛰" type="tts">mountain</annotation>
+		<annotation cp="🛘">avalanche | danger | disaster | earthquake | mountain | mudslide | rocks</annotation> <!-- 1F6D8 -->
+		<annotation cp="🛘" type="tts">landslide</annotation>
 		<annotation cp="🌋">eruption | mountain | nature | volcano</annotation>
 		<annotation cp="🌋" type="tts">volcano</annotation>
 		<annotation cp="🗻">fuji | mount | mountain | nature</annotation>
@@ -3038,14 +3045,16 @@ annotations.
 		<annotation cp="📻" type="tts">radio</annotation>
 		<annotation cp="🎷">instrument | music | sax | saxophone</annotation>
 		<annotation cp="🎷" type="tts">saxophone</annotation>
+		<annotation cp="🎺">instrument | music | trumpet</annotation>
+		<annotation cp="🎺" type="tts">trumpet</annotation>
+		<annotation cp="🪊">brass | instrument | jazz | music | sad | slide</annotation> <!-- 1FA8A -->
+		<annotation cp="🪊" type="tts">trombone</annotation>
 		<annotation cp="🪗">accordion | box | concertina | instrument | music | squeeze | squeezebox</annotation>
 		<annotation cp="🪗" type="tts">accordion</annotation>
 		<annotation cp="🎸">guitar | instrument | music | strat</annotation>
 		<annotation cp="🎸" type="tts">guitar</annotation>
 		<annotation cp="🎹">instrument | keyboard | music | musical | piano</annotation>
 		<annotation cp="🎹" type="tts">musical keyboard</annotation>
-		<annotation cp="🎺">instrument | music | trumpet</annotation>
-		<annotation cp="🎺" type="tts">trumpet</annotation>
 		<annotation cp="🎻">instrument | music | violin</annotation>
 		<annotation cp="🎻" type="tts">violin</annotation>
 		<annotation cp="🪕">banjo | music | stringed</annotation>
@@ -3058,6 +3067,8 @@ annotations.
 		<annotation cp="🪇" type="tts">maracas</annotation>
 		<annotation cp="🪈">band | fife | flautist | flute | instrument | marching | music | orchestra | piccolo | pipe | recorder | woodwind</annotation> <!-- 1FA88 -->
 		<annotation cp="🪈" type="tts">flute</annotation>
+		<annotation cp="🪉">cupid | harp | instrument | love | music | orchestra</annotation>
+		<annotation cp="🪉" type="tts">harp</annotation>
 		<annotation cp="📱">cell | communication | mobile | phone | telephone</annotation>
 		<annotation cp="📱" type="tts">mobile phone</annotation>
 		<annotation cp="📲">arrow | build | call | cell | communication | mobile | phone | receive | telephone</annotation>
@@ -3164,10 +3175,12 @@ annotations.
 		<annotation cp="🔖" type="tts">bookmark</annotation>
 		<annotation cp="🏷">label | tag</annotation>
 		<annotation cp="🏷" type="tts">label</annotation>
-		<annotation cp="💰">bag | bank | bet | billion | cash | cost | dollar | gold | million | money | moneybag | paid | paying | pot | rich | win</annotation>
-		<annotation cp="💰" type="tts">money bag</annotation>
 		<annotation cp="🪙">coin | dollar | euro | gold | metal | money | rich | silver | treasure</annotation>
 		<annotation cp="🪙" type="tts">coin</annotation>
+		<annotation cp="💰">bag | bank | bet | billion | cash | cost | dollar | gold | million | money | moneybag | paid | paying | pot | rich | win</annotation>
+		<annotation cp="💰" type="tts">money bag</annotation>
+		<annotation cp="🪎">gem | gold | jewels | loot | money | prize | silver | valuables | wealth</annotation> <!-- 1FA8E -->
+		<annotation cp="🪎" type="tts">treasure chest</annotation>
 		<annotation cp="💴">bank | banknote | bill | currency | money | note | yen</annotation>
 		<annotation cp="💴" type="tts">yen banknote</annotation>
 		<annotation cp="💵">bank | banknote | bill | currency | dollar | money | note</annotation>
@@ -3334,6 +3347,8 @@ annotations.
 		<annotation cp="🧲" type="tts">magnet</annotation>
 		<annotation cp="🪜">climb | ladder | rung | step</annotation>
 		<annotation cp="🪜" type="tts">ladder</annotation>
+		<annotation cp="🪏">bury | dig | garden | hole | plant | scoop | shovel | snow | spade</annotation>
+		<annotation cp="🪏" type="tts">shovel</annotation>
 		<annotation cp="⚗">alembic | chemistry | tool</annotation>
 		<annotation cp="⚗" type="tts">alembic</annotation>
 		<annotation cp="🧪">chemist | chemistry | experiment | lab | science | test | tube</annotation>
@@ -3706,6 +3721,8 @@ annotations.
 		<annotation cp="®" type="tts">registered</annotation>
 		<annotation cp="™">mark | TM | trade | trademark</annotation>
 		<annotation cp="™" type="tts">trade mark</annotation>
+		<annotation cp="🫟">drip | holi | ink | liquid | mess | paint | spill | splatter | stain</annotation>
+		<annotation cp="🫟" type="tts">splatter</annotation>
 		<annotation cp="🔠">ABCD | input | latin | letters | uppercase</annotation>
 		<annotation cp="🔠" type="tts">input latin uppercase</annotation>
 		<annotation cp="🔡">abcd | input | latin | letters | lowercase</annotation>
@@ -3904,6 +3921,26 @@ annotations.
 		<annotation cp="₽" type="tts">ruble</annotation>
 		<annotation cp="₿">bitcoin | BTC</annotation>
 		<annotation cp="₿" type="tts">bitcoin</annotation>
+		<annotation cp="0⃣">0 | keycap | zero</annotation>
+		<annotation cp="0⃣" type="tts">keycap: 0</annotation>
+		<annotation cp="1⃣">1 | keycap | one</annotation>
+		<annotation cp="1⃣" type="tts">keycap: 1</annotation>
+		<annotation cp="2⃣">2 | keycap | two</annotation>
+		<annotation cp="2⃣" type="tts">keycap: 2</annotation>
+		<annotation cp="3⃣">3 | keycap | three</annotation>
+		<annotation cp="3⃣" type="tts">keycap: 3</annotation>
+		<annotation cp="4⃣">4 | four | keycap</annotation>
+		<annotation cp="4⃣" type="tts">keycap: 4</annotation>
+		<annotation cp="5⃣">5 | five | keycap</annotation>
+		<annotation cp="5⃣" type="tts">keycap: 5</annotation>
+		<annotation cp="6⃣">6 | keycap | six</annotation>
+		<annotation cp="6⃣" type="tts">keycap: 6</annotation>
+		<annotation cp="7⃣">7 | keycap | seven</annotation>
+		<annotation cp="7⃣" type="tts">keycap: 7</annotation>
+		<annotation cp="8⃣">8 | eight | keycap</annotation>
+		<annotation cp="8⃣" type="tts">keycap: 8</annotation>
+		<annotation cp="9⃣">9 | keycap | nine</annotation>
+		<annotation cp="9⃣" type="tts">keycap: 9</annotation>
 		<annotation cp="¹">one | superscript</annotation>
 		<annotation cp="¹" type="tts">superscript one</annotation>
 		<annotation cp="²">squared | superscript | two</annotation>

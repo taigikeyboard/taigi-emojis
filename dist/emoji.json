@@ -1,8 +1,8 @@
 {
   "meta": {
-    "emojiVersion": "E16.0",
-    "cldrVersion": "46",
-    "count": 1881,
+    "emojiVersion": "E17.0",
+    "cldrVersion": "48",
+    "count": 1889,
     "generator": "taigi-emojis/scripts/generate.py"
   },
   "categories": [
@@ -4469,6 +4469,51 @@
           }
         },
         {
+          "base": "🫪",
+          "cp": [
+            129770
+          ],
+          "name": "distorted face",
+          "subgroup": "face-concerned",
+          "version": "E17.0",
+          "variations": [],
+          "keywords": [
+            "anxiety",
+            "bloated",
+            "panic",
+            "shocked",
+            "surprised",
+            "vulnerable",
+            "恐慌",
+            "慌張",
+            "焦慮",
+            "脆弱",
+            "腫脹",
+            "驚喜",
+            "驚嚇"
+          ],
+          "keywordsByLocale": {
+            "en": [
+              "anxiety",
+              "bloated",
+              "panic",
+              "shocked",
+              "surprised",
+              "vulnerable"
+            ],
+            "zh_Hant": [
+              "恐慌",
+              "慌張",
+              "焦慮",
+              "脆弱",
+              "腫脹",
+              "驚喜",
+              "驚嚇"
+            ],
+            "taigi": []
+          }
+        },
+        {
           "base": "🥺",
           "cp": [
             129402
@@ -7951,6 +7996,53 @@
               "怒",
               "火大",
               "爆青筋"
+            ],
+            "taigi": []
+          }
+        },
+        {
+          "base": "🫯",
+          "cp": [
+            129775
+          ],
+          "name": "fight cloud",
+          "subgroup": "emotion",
+          "version": "E17.0",
+          "variations": [],
+          "keywords": [
+            "argument",
+            "brawl",
+            "debate",
+            "disagreement",
+            "fight",
+            "ruckus",
+            "wrestle",
+            "不同意",
+            "戰鬥",
+            "搏鬥",
+            "爭論",
+            "辯論",
+            "騷動",
+            "鬥毆"
+          ],
+          "keywordsByLocale": {
+            "en": [
+              "argument",
+              "brawl",
+              "debate",
+              "disagreement",
+              "fight",
+              "ruckus",
+              "wrestle"
+            ],
+            "zh_Hant": [
+              "不同意",
+              "戰鬥",
+              "搏鬥",
+              "爭論",
+              "辯論",
+              "騷動",
+              "鬥毆"
             ],
             "taigi": []
           }
@@ -19979,6 +20071,57 @@
           }
         },
         {
+          "base": "🫈",
+          "cp": [
+            129736
+          ],
+          "name": "hairy creature",
+          "subgroup": "person-fantasy",
+          "version": "E17.0",
+          "variations": [],
+          "keywords": [
+            "bigfoot",
+            "cryptid",
+            "forest",
+            "giant",
+            "hairy",
+            "sasquatch",
+            "woodwose",
+            "yeti",
+            "大腳怪",
+            "大腳野人",
+            "巨大",
+            "林中野人",
+            "森林",
+            "毛茸茸",
+            "神秘",
+            "雪怪"
+          ],
+          "keywordsByLocale": {
+            "en": [
+              "bigfoot",
+              "cryptid",
+              "forest",
+              "giant",
+              "hairy",
+              "sasquatch",
+              "woodwose",
+              "yeti"
+            ],
+            "zh_Hant": [
+              "大腳怪",
+              "大腳野人",
+              "巨大",
+              "林中野人",
+              "森林",
+              "毛茸茸",
+              "神秘",
+              "雪怪"
+            ],
+            "taigi": []
+          }
+        },
+        {
           "base": "💆",
           "cp": [
             128134
@@ -20569,12 +20712,14 @@
           ],
           "keywords": [
             "amble",
+            "facing",
             "gait",
             "hike",
             "man",
             "pace",
             "pedestrian",
             "person",
+            "right",
             "stride",
             "stroll",
             "walk",
@@ -20586,17 +20731,20 @@
             "行人",
             "走路",
             "路人",
-            "踏步"
+            "踏步",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "amble",
+              "facing",
               "gait",
               "hike",
               "man",
               "pace",
               "pedestrian",
               "person",
+              "right",
               "stride",
               "stroll",
               "walk",
@@ -20610,7 +20758,8 @@
               "行人",
               "走路",
               "路人",
-              "踏步"
+              "踏步",
+              "面右"
             ],
             "taigi": []
           }
@@ -20638,11 +20787,13 @@
           ],
           "keywords": [
             "amble",
+            "facing",
             "gait",
             "hike",
             "man",
             "pace",
             "pedestrian",
+            "right",
             "stride",
             "stroll",
             "walk",
@@ -20652,16 +20803,19 @@
             "漫步",
             "走路",
             "路人",
-            "閒逛"
+            "閒逛",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "amble",
+              "facing",
               "gait",
               "hike",
               "man",
               "pace",
               "pedestrian",
+              "right",
               "stride",
               "stroll",
               "walk",
@@ -20673,7 +20827,8 @@
               "漫步",
               "走路",
               "路人",
-              "閒逛"
+              "閒逛",
+              "面右"
             ],
             "taigi": []
           }
@@ -20701,27 +20856,32 @@
           ],
           "keywords": [
             "amble",
+            "facing",
             "gait",
             "hike",
             "man",
             "pace",
             "pedestrian",
+            "right",
             "stride",
             "stroll",
             "walk",
             "walking",
             "男行人",
             "走路",
-            "路人"
+            "路人",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "amble",
+              "facing",
               "gait",
               "hike",
               "man",
               "pace",
               "pedestrian",
+              "right",
               "stride",
               "stroll",
               "walk",
@@ -20730,7 +20890,8 @@
             "zh_Hant": [
               "男行人",
               "走路",
-              "路人"
+              "路人",
+              "面右"
             ],
             "taigi": []
           }
@@ -20998,27 +21159,33 @@
             "🧎🏿‍➡️"
           ],
           "keywords": [
+            "facing",
             "kneel",
             "kneeling",
             "knees",
             "person",
+            "right",
             "人",
             "跪",
             "跪下",
-            "跪著的人"
+            "跪著的人",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
+              "facing",
               "kneel",
               "kneeling",
               "knees",
-              "person"
+              "person",
+              "right"
             ],
             "zh_Hant": [
               "人",
               "跪",
               "跪下",
-              "跪著的人"
+              "跪著的人",
+              "面右"
             ],
             "taigi": []
           }
@@ -21045,25 +21212,31 @@
             "🧎🏿‍♀️‍➡️"
           ],
           "keywords": [
+            "facing",
             "kneel",
             "kneeling",
             "knees",
+            "right",
             "woman",
             "女",
             "跪",
-            "跪著的女子"
+            "跪著的女子",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
+              "facing",
               "kneel",
               "kneeling",
               "knees",
+              "right",
               "woman"
             ],
             "zh_Hant": [
               "女",
               "跪",
-              "跪著的女子"
+              "跪著的女子",
+              "面右"
             ],
             "taigi": []
           }
@@ -21090,25 +21263,31 @@
             "🧎🏿‍♂️‍➡️"
           ],
           "keywords": [
+            "facing",
             "kneel",
             "kneeling",
             "knees",
             "man",
+            "right",
             "男",
             "跪",
-            "跪著的男子"
+            "跪著的男子",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
+              "facing",
               "kneel",
               "kneeling",
               "knees",
-              "man"
+              "man",
+              "right"
             ],
             "zh_Hant": [
               "男",
               "跪",
-              "跪著的男子"
+              "跪著的男子",
+              "面右"
             ],
             "taigi": []
           }
@@ -21182,26 +21361,32 @@
             "accessibility",
             "blind",
             "cane",
+            "facing",
             "person",
             "probing",
+            "right",
             "white",
             "拿導盲手杖的人",
             "盲人",
-            "行動不便"
+            "行動不便",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "accessibility",
               "blind",
               "cane",
+              "facing",
               "person",
               "probing",
+              "right",
               "white"
             ],
             "zh_Hant": [
               "拿導盲手杖的人",
               "盲人",
-              "行動不便"
+              "行動不便",
+              "面右"
             ],
             "taigi": []
           }
@@ -21281,23 +21466,28 @@
             "accessibility",
             "blind",
             "cane",
+            "facing",
             "man",
             "probing",
+            "right",
             "white",
             "人",
             "拿導盲手杖的男子",
             "男",
             "男子",
             "盲人",
-            "行動不便"
+            "行動不便",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "accessibility",
               "blind",
               "cane",
+              "facing",
               "man",
               "probing",
+              "right",
               "white"
             ],
             "zh_Hant": [
@@ -21306,7 +21496,8 @@
               "男",
               "男子",
               "盲人",
-              "行動不便"
+              "行動不便",
+              "面右"
             ],
             "taigi": []
           }
@@ -21386,7 +21577,9 @@
             "accessibility",
             "blind",
             "cane",
+            "facing",
             "probing",
+            "right",
             "white",
             "woman",
             "人",
@@ -21394,14 +21587,17 @@
             "女子",
             "拿導盲手杖的女子",
             "盲人",
-            "行動不便"
+            "行動不便",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "accessibility",
               "blind",
               "cane",
+              "facing",
               "probing",
+              "right",
               "white",
               "woman"
             ],
@@ -21411,7 +21607,8 @@
               "女子",
               "拿導盲手杖的女子",
               "盲人",
-              "行動不便"
+              "行動不便",
+              "面右"
             ],
             "taigi": []
           }
@@ -21479,24 +21676,30 @@
           ],
           "keywords": [
             "accessibility",
+            "facing",
             "motorized",
             "person",
+            "right",
             "wheelchair",
             "坐電動輪椅的人",
             "行動不便",
-            "輪椅"
+            "輪椅",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "accessibility",
+              "facing",
               "motorized",
               "person",
+              "right",
               "wheelchair"
             ],
             "zh_Hant": [
               "坐電動輪椅的人",
               "行動不便",
-              "輪椅"
+              "輪椅",
+              "面右"
             ],
             "taigi": []
           }
@@ -21572,8 +21775,10 @@
           ],
           "keywords": [
             "accessibility",
+            "facing",
             "man",
             "motorized",
+            "right",
             "wheelchair",
             "人",
             "坐電動輪椅的男子",
@@ -21581,13 +21786,16 @@
             "男子",
             "行動不便",
             "輪椅",
-            "電動輪椅"
+            "電動輪椅",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "accessibility",
+              "facing",
               "man",
               "motorized",
+              "right",
               "wheelchair"
             ],
             "zh_Hant": [
@@ -21597,7 +21805,8 @@
               "男子",
               "行動不便",
               "輪椅",
-              "電動輪椅"
+              "電動輪椅",
+              "面右"
             ],
             "taigi": []
           }
@@ -21673,7 +21882,9 @@
           ],
           "keywords": [
             "accessibility",
+            "facing",
             "motorized",
+            "right",
             "wheelchair",
             "woman",
             "人",
@@ -21682,12 +21893,15 @@
             "女子",
             "行動不便",
             "輪椅",
-            "電動輪椅"
+            "電動輪椅",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "accessibility",
+              "facing",
               "motorized",
+              "right",
               "wheelchair",
               "woman"
             ],
@@ -21698,7 +21912,8 @@
               "女子",
               "行動不便",
               "輪椅",
-              "電動輪椅"
+              "電動輪椅",
+              "面右"
             ],
             "taigi": []
           }
@@ -21766,24 +21981,30 @@
           ],
           "keywords": [
             "accessibility",
+            "facing",
             "manual",
             "person",
+            "right",
             "wheelchair",
             "坐輪椅的人",
             "行動不便",
-            "輪椅"
+            "輪椅",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "accessibility",
+              "facing",
               "manual",
               "person",
+              "right",
               "wheelchair"
             ],
             "zh_Hant": [
               "坐輪椅的人",
               "行動不便",
-              "輪椅"
+              "輪椅",
+              "面右"
             ],
             "taigi": []
           }
@@ -21857,21 +22078,26 @@
           ],
           "keywords": [
             "accessibility",
+            "facing",
             "man",
             "manual",
+            "right",
             "wheelchair",
             "人",
             "坐輪椅的男子",
             "男",
             "男子",
             "行動不便",
-            "輪椅"
+            "輪椅",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "accessibility",
+              "facing",
               "man",
               "manual",
+              "right",
               "wheelchair"
             ],
             "zh_Hant": [
@@ -21880,7 +22106,8 @@
               "男",
               "男子",
               "行動不便",
-              "輪椅"
+              "輪椅",
+              "面右"
             ],
             "taigi": []
           }
@@ -21954,7 +22181,9 @@
           ],
           "keywords": [
             "accessibility",
+            "facing",
             "manual",
+            "right",
             "wheelchair",
             "woman",
             "人",
@@ -21962,12 +22191,15 @@
             "女",
             "女子",
             "行動不便",
-            "輪椅"
+            "輪椅",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
               "accessibility",
+              "facing",
               "manual",
+              "right",
               "wheelchair",
               "woman"
             ],
@@ -21977,7 +22209,8 @@
               "女",
               "女子",
               "行動不便",
-              "輪椅"
+              "輪椅",
+              "面右"
             ],
             "taigi": []
           }
@@ -22182,6 +22415,7 @@
             "🏃🏿‍➡️"
           ],
           "keywords": [
+            "facing",
             "fast",
             "hurry",
             "marathon",
@@ -22190,6 +22424,7 @@
             "quick",
             "race",
             "racing",
+            "right",
             "run",
             "rush",
             "speed",
@@ -22201,10 +22436,12 @@
             "跑者",
             "跑過來",
             "跑馬拉松",
-            "速度"
+            "速度",
+            "面右"
           ],
           "keywordsByLocale": {
             "en": [
+              "facing",
               "fast",
               "hurry",
               "marathon",
@@ -22213,6 +22450,7 @@
               "quick",
               "race",
               "racing",
+              "right",
               "run",
               "rush",
               "speed"
@@ -22226,7 +22464,8 @@
               "跑者",
               "跑過來",
               "跑馬拉松",
-              "速度"
+              "速度",
+              "面右"
             ],
             "taigi": []
           }
@@ -22253,6 +22492,7 @@
             "🏃🏿‍♀️‍➡️"
           ],
           "keywords": [
+            "facing",
             "fast",
             "hurry",
             "marathon",
@@ -22260,6 +22500,7 @@
             "quick",
             "race",
             "racing",
+            "right",
             "run",
             "rush",
             "speed",
@@ -22267,10 +22508,12 @@
             "女",
             "女跑者",
             "跑",
+            "面右",
             "馬拉松"
           ],
           "keywordsByLocale": {
             "en": [
+              "facing",
               "fast",
               "hurry",
               "marathon",
@@ -22278,6 +22521,7 @@
               "quick",
               "race",
               "racing",
+              "right",
               "run",
               "rush",
               "speed",
@@ -22287,6 +22531,7 @@
               "女",
               "女跑者",
               "跑",
+              "面右",
               "馬拉松"
             ],
             "taigi": []
@@ -22314,6 +22559,7 @@
             "🏃🏿‍♂️‍➡️"
           ],
           "keywords": [
+            "facing",
             "fast",
             "hurry",
             "man",
@@ -22322,16 +22568,19 @@
             "quick",
             "race",
             "racing",
+            "right",
             "run",
             "rush",
             "speed",
             "男",
             "男跑者",
             "跑",
+            "面右",
             "馬拉松"
           ],
           "keywordsByLocale": {
             "en": [
+              "facing",
               "fast",
               "hurry",
               "man",
@@ -22340,6 +22589,7 @@
               "quick",
               "race",
               "racing",
+              "right",
               "run",
               "rush",
               "speed"
@@ -22348,7 +22598,43 @@
               "男",
               "男跑者",
               "跑",
+              "面右",
               "馬拉松"
+            ],
+            "taigi": []
+          }
+        },
+        {
+          "base": "🧑‍🩰",
+          "cp": [
+            129489,
+            8205,
+            129648
+          ],
+          "name": "ballet dancer",
+          "subgroup": "person-activity",
+          "version": "E17.0",
+          "variations": [
+            "🧑🏻‍🩰",
+            "🧑🏼‍🩰",
+            "🧑🏽‍🩰",
+            "🧑🏾‍🩰",
+            "🧑🏿‍🩰"
+          ],
+          "keywords": [
+            "ballet",
+            "dancer",
+            "舞者",
+            "芭蕾"
+          ],
+          "keywordsByLocale": {
+            "en": [
+              "ballet",
+              "dancer"
+            ],
+            "zh_Hant": [
+              "舞者",
+              "芭蕾"
             ],
             "taigi": []
           }
@@ -22531,7 +22817,13 @@
           "name": "people with bunny ears",
           "subgroup": "person-activity",
           "version": "E0.6",
-          "variations": [],
+          "variations": [
+            "👯🏻",
+            "👯🏼",
+            "👯🏽",
+            "👯🏾",
+            "👯🏿"
+          ],
           "keywords": [
             "bestie",
             "bff",
@@ -22599,7 +22891,13 @@
           "name": "men with bunny ears",
           "subgroup": "person-activity",
           "version": "E4.0",
-          "variations": [],
+          "variations": [
+            "👯🏻‍♂️",
+            "👯🏼‍♂️",
+            "👯🏽‍♂️",
+            "👯🏾‍♂️",
+            "👯🏿‍♂️"
+          ],
           "keywords": [
             "bestie",
             "bff",
@@ -22661,7 +22959,13 @@
           "name": "women with bunny ears",
           "subgroup": "person-activity",
           "version": "E4.0",
-          "variations": [],
+          "variations": [
+            "👯🏻‍♀️",
+            "👯🏼‍♀️",
+            "👯🏽‍♀️",
+            "👯🏾‍♀️",
+            "👯🏿‍♀️"
+          ],
           "keywords": [
             "bestie",
             "bff",
@@ -24757,7 +25061,13 @@
           "name": "people wrestling",
           "subgroup": "person-sport",
           "version": "E3.0",
-          "variations": [],
+          "variations": [
+            "🤼🏻",
+            "🤼🏼",
+            "🤼🏽",
+            "🤼🏾",
+            "🤼🏿"
+          ],
           "keywords": [
             "combat",
             "duel",
@@ -24815,7 +25125,13 @@
           "name": "men wrestling",
           "subgroup": "person-sport",
           "version": "E4.0",
-          "variations": [],
+          "variations": [
+            "🤼🏻‍♂️",
+            "🤼🏼‍♂️",
+            "🤼🏽‍♂️",
+            "🤼🏾‍♂️",
+            "🤼🏿‍♂️"
+          ],
           "keywords": [
             "combat",
             "duel",
@@ -24873,7 +25189,13 @@
           "name": "women wrestling",
           "subgroup": "person-sport",
           "version": "E4.0",
-          "variations": [],
+          "variations": [
+            "🤼🏻‍♀️",
+            "🤼🏼‍♀️",
+            "🤼🏽‍♀️",
+            "🤼🏾‍♀️",
+            "🤼🏿‍♀️"
+          ],
           "keywords": [
             "combat",
             "duel",
@@ -30902,6 +31224,41 @@
             "zh_Hant": [
               "動物",
               "海豚"
+            ],
+            "taigi": []
+          }
+        },
+        {
+          "base": "🫍",
+          "cp": [
+            129741
+          ],
+          "name": "orca",
+          "subgroup": "animal-marine",
+          "version": "E17.0",
+          "variations": [],
+          "keywords": [
+            "marine",
+            "ocean",
+            "whale",
+            "大洋",
+            "大海",
+            "海洋",
+            "鯨",
+            "鯨魚"
+          ],
+          "keywordsByLocale": {
+            "en": [
+              "marine",
+              "ocean",
+              "whale"
+            ],
+            "zh_Hant": [
+              "大洋",
+              "大海",
+              "海洋",
+              "鯨",
+              "鯨魚"
             ],
             "taigi": []
           }
@@ -38416,6 +38773,53 @@
             "zh_Hant": [
               "山",
               "山峰"
+            ],
+            "taigi": []
+          }
+        },
+        {
+          "base": "🛘",
+          "cp": [
+            128728
+          ],
+          "name": "landslide",
+          "subgroup": "place-geographic",
+          "version": "E17.0",
+          "variations": [],
+          "keywords": [
+            "avalanche",
+            "danger",
+            "disaster",
+            "earthquake",
+            "mountain",
+            "mudslide",
+            "rocks",
+            "危險",
+            "土石流",
+            "地震",
+            "山",
+            "岩石",
+            "災難",
+            "雪崩"
+          ],
+          "keywordsByLocale": {
+            "en": [
+              "avalanche",
+              "danger",
+              "disaster",
+              "earthquake",
+              "mountain",
+              "mudslide",
+              "rocks"
+            ],
+            "zh_Hant": [
+              "危險",
+              "土石流",
+              "地震",
+              "山",
+              "岩石",
+              "災難",
+              "雪崩"
             ],
             "taigi": []
           }
@@ -51224,6 +51628,82 @@
           }
         },
         {
+          "base": "🎺",
+          "cp": [
+            127930
+          ],
+          "name": "trumpet",
+          "subgroup": "musical-instrument",
+          "version": "E0.6",
+          "variations": [],
+          "keywords": [
+            "instrument",
+            "music",
+            "trumpet",
+            "小號",
+            "樂器"
+          ],
+          "keywordsByLocale": {
+            "en": [
+              "instrument",
+              "music",
+              "trumpet"
+            ],
+            "zh_Hant": [
+              "小號",
+              "樂器"
+            ],
+            "taigi": []
+          }
+        },
+        {
+          "base": "🪊",
+          "cp": [
+            129674
+          ],
+          "name": "trombone",
+          "subgroup": "musical-instrument",
+          "version": "E17.0",
+          "variations": [],
+          "keywords": [
+            "brass",
+            "instrument",
+            "jazz",
+            "music",
+            "sad",
+            "slide",
+            "傷心",
+            "悲傷",
+            "樂器",
+            "滑管",
+            "爵士樂",
+            "銅管樂器",
+            "難過",
+            "音樂"
+          ],
+          "keywordsByLocale": {
+            "en": [
+              "brass",
+              "instrument",
+              "jazz",
+              "music",
+              "sad",
+              "slide"
+            ],
+            "zh_Hant": [
+              "傷心",
+              "悲傷",
+              "樂器",
+              "滑管",
+              "爵士樂",
+              "銅管樂器",
+              "難過",
+              "音樂"
+            ],
+            "taigi": []
+          }
+        },
+        {
           "base": "🪗",
           "cp": [
             129687
@@ -51330,35 +51810,6 @@
               "鋼琴",
               "鍵盤樂器",
               "電子琴"
-            ],
-            "taigi": []
-          }
-        },
-        {
-          "base": "🎺",
-          "cp": [
-            127930
-          ],
-          "name": "trumpet",
-          "subgroup": "musical-instrument",
-          "version": "E0.6",
-          "variations": [],
-          "keywords": [
-            "instrument",
-            "music",
-            "trumpet",
-            "小號",
-            "樂器"
-          ],
-          "keywordsByLocale": {
-            "en": [
-              "instrument",
-              "music",
-              "trumpet"
-            ],
-            "zh_Hant": [
-              "小號",
-              "樂器"
             ],
             "taigi": []
           }
@@ -53433,6 +53884,61 @@
           }
         },
         {
+          "base": "🪙",
+          "cp": [
+            129689
+          ],
+          "name": "coin",
+          "subgroup": "money",
+          "version": "E13.0",
+          "variations": [],
+          "keywords": [
+            "coin",
+            "dollar",
+            "euro",
+            "gold",
+            "metal",
+            "money",
+            "rich",
+            "silver",
+            "treasure",
+            "寶藏",
+            "歐元",
+            "硬幣",
+            "金",
+            "金屬",
+            "金幣",
+            "銀",
+            "錢",
+            "錢幣"
+          ],
+          "keywordsByLocale": {
+            "en": [
+              "coin",
+              "dollar",
+              "euro",
+              "gold",
+              "metal",
+              "money",
+              "rich",
+              "silver",
+              "treasure"
+            ],
+            "zh_Hant": [
+              "寶藏",
+              "歐元",
+              "硬幣",
+              "金",
+              "金屬",
+              "金幣",
+              "銀",
+              "錢",
+              "錢幣"
+            ],
+            "taigi": []
+          }
+        },
+        {
           "base": "💰",
           "cp": [
             128176
@@ -53490,56 +53996,56 @@
           }
         },
         {
-          "base": "🪙",
+          "base": "🪎",
           "cp": [
-            129689
+            129678
           ],
-          "name": "coin",
+          "name": "treasure chest",
           "subgroup": "money",
-          "version": "E13.0",
+          "version": "E17.0",
           "variations": [],
           "keywords": [
-            "coin",
-            "dollar",
-            "euro",
+            "gem",
             "gold",
-            "metal",
+            "jewels",
+            "loot",
             "money",
-            "rich",
+            "prize",
             "silver",
-            "treasure",
-            "寶藏",
-            "歐元",
-            "硬幣",
-            "金",
-            "金屬",
-            "金幣",
+            "valuables",
+            "wealth",
+            "寶石",
+            "戰利品",
+            "搶劫",
+            "珠寶",
+            "財富",
+            "貴重物品",
+            "金子",
             "銀",
-            "錢",
-            "錢幣"
+            "錢"
           ],
           "keywordsByLocale": {
             "en": [
-              "coin",
-              "dollar",
-              "euro",
+              "gem",
               "gold",
-              "metal",
+              "jewels",
+              "loot",
               "money",
-              "rich",
+              "prize",
               "silver",
-              "treasure"
+              "valuables",
+              "wealth"
             ],
             "zh_Hant": [
-              "寶藏",
-              "歐元",
-              "硬幣",
-              "金",
-              "金屬",
-              "金幣",
+              "寶石",
+              "戰利品",
+              "搶劫",
+              "珠寶",
+              "財富",
+              "貴重物品",
+              "金子",
               "銀",
-              "錢",
-              "錢幣"
+              "錢"
             ],
             "taigi": []
           }
@@ -63288,14 +63794,19 @@
           "version": "E0.6",
           "variations": [],
           "keywords": [
+            "0",
             "keycap",
+            "zero",
             "按鍵"
           ],
           "keywordsByLocale": {
             "en": [
-              "keycap"
+              "0",
+              "keycap",
+              "zero"
             ],
             "zh_Hant": [
+              "0",
               "按鍵"
             ],
             "taigi": []
@@ -63313,14 +63824,21 @@
           "version": "E0.6",
           "variations": [],
           "keywords": [
+            "1",
             "keycap",
+            "one",
+            "一",
             "按鍵"
           ],
           "keywordsByLocale": {
             "en": [
-              "keycap"
+              "1",
+              "keycap",
+              "one"
             ],
             "zh_Hant": [
+              "1",
+              "一",
               "按鍵"
             ],
             "taigi": []
@@ -63338,14 +63856,21 @@
           "version": "E0.6",
           "variations": [],
           "keywords": [
+            "2",
             "keycap",
+            "two",
+            "二",
             "按鍵"
           ],
           "keywordsByLocale": {
             "en": [
-              "keycap"
+              "2",
+              "keycap",
+              "two"
             ],
             "zh_Hant": [
+              "2",
+              "二",
               "按鍵"
             ],
             "taigi": []
@@ -63363,14 +63888,21 @@
           "version": "E0.6",
           "variations": [],
           "keywords": [
+            "3",
             "keycap",
+            "three",
+            "三",
             "按鍵"
           ],
           "keywordsByLocale": {
             "en": [
-              "keycap"
+              "3",
+              "keycap",
+              "three"
             ],
             "zh_Hant": [
+              "3",
+              "三",
               "按鍵"
             ],
             "taigi": []
@@ -63388,14 +63920,21 @@
           "version": "E0.6",
           "variations": [],
           "keywords": [
+            "4",
+            "four",
             "keycap",
+            "四",
             "按鍵"
           ],
           "keywordsByLocale": {
             "en": [
+              "4",
+              "four",
               "keycap"
             ],
             "zh_Hant": [
+              "4",
+              "四",
               "按鍵"
             ],
             "taigi": []
@@ -63413,14 +63952,21 @@
           "version": "E0.6",
           "variations": [],
           "keywords": [
+            "5",
+            "five",
             "keycap",
+            "五",
             "按鍵"
           ],
           "keywordsByLocale": {
             "en": [
+              "5",
+              "five",
               "keycap"
             ],
             "zh_Hant": [
+              "5",
+              "五",
               "按鍵"
             ],
             "taigi": []
@@ -63438,14 +63984,21 @@
           "version": "E0.6",
           "variations": [],
           "keywords": [
+            "6",
             "keycap",
+            "six",
+            "六",
             "按鍵"
           ],
           "keywordsByLocale": {
             "en": [
-              "keycap"
+              "6",
+              "keycap",
+              "six"
             ],
             "zh_Hant": [
+              "6",
+              "六",
               "按鍵"
             ],
             "taigi": []
@@ -63463,14 +64016,21 @@
           "version": "E0.6",
           "variations": [],
           "keywords": [
+            "7",
             "keycap",
+            "seven",
+            "七",
             "按鍵"
           ],
           "keywordsByLocale": {
             "en": [
-              "keycap"
+              "7",
+              "keycap",
+              "seven"
             ],
             "zh_Hant": [
+              "7",
+              "七",
               "按鍵"
             ],
             "taigi": []
@@ -63488,14 +64048,21 @@
           "version": "E0.6",
           "variations": [],
           "keywords": [
+            "8",
+            "eight",
             "keycap",
+            "八",
             "按鍵"
           ],
           "keywordsByLocale": {
             "en": [
+              "8",
+              "eight",
               "keycap"
             ],
             "zh_Hant": [
+              "8",
+              "八",
               "按鍵"
             ],
             "taigi": []
@@ -63513,14 +64080,21 @@
           "version": "E0.6",
           "variations": [],
           "keywords": [
+            "9",
             "keycap",
+            "nine",
+            "九",
             "按鍵"
           ],
           "keywordsByLocale": {
             "en": [
-              "keycap"
+              "9",
+              "keycap",
+              "nine"
             ],
             "zh_Hant": [
+              "9",
+              "九",
               "按鍵"
             ],
             "taigi": []
@@ -67414,13 +67988,16 @@
           "version": "E16.0",
           "variations": [],
           "keywords": [
-            "flag"
+            "flag",
+            "旗子"
           ],
           "keywordsByLocale": {
             "en": [
               "flag"
             ],
-            "zh_Hant": [],
+            "zh_Hant": [
+              "旗子"
+            ],
             "taigi": []
           }
         },

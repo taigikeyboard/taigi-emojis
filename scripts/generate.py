@@ -27,11 +27,11 @@ OUTPUT_PATHS = [
     REPO_ROOT / "platforms" / "android" / "src" / "main" / "assets" / "emoji.json",
 ]
 
-# Pinned cap. All bundled data/ is Unicode Emoji 16.0; the cap is intentional and
-# documented in data/SOURCES.md. Per-OS rendering gaps are handled by each platform's
-# glyph filter at load (see CLAUDE.md § Platform integration), not by per-version files.
-MAX_EMOJI_VERSION = "E16.0"
-CLDR_VERSION = "46"
+# Pinned version. All bundled data/ is Unicode Emoji 17.0. Per-OS rendering gaps (older OS
+# fonts lacking E17 glyphs) are handled by each platform's glyph filter at load (see
+# CLAUDE.md § Platform integration), not by per-version files. See data/SOURCES.md.
+MAX_EMOJI_VERSION = "E17.0"
+CLDR_VERSION = "48"
 
 SKIN_TONE_RANGE = range(0x1F3FB, 0x1F3FF + 1)
 VARIATION_SELECTOR_16 = 0xFE0F

@@ -47,7 +47,7 @@ def test_categories_ordered_and_nonempty(document: dict) -> None:
 
 def test_count_is_reasonable(document: dict) -> None:
     assert document["meta"]["count"] > 1800
-    assert document["meta"]["emojiVersion"] == "E16.0"
+    assert document["meta"]["emojiVersion"] == "E17.0"
 
 
 def test_first_emoji_is_grinning_face(document: dict) -> None:
