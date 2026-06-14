@@ -7,15 +7,6 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 
-# Swift / SPM
-.build/
-.swiftpm/
-
-# Android / Gradle
-platforms/android/build/
-.gradle/
-local.properties
-
 # Claude Code (local config — not shared)
 .claude/settings.json
 .claude/settings.local.json

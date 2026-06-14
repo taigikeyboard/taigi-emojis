@@ -17,15 +17,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
 OVERRIDES_PATH = REPO_ROOT / "src" / "overrides.tsv"
 
-# Canonical output + the platform module copies. Real files (not symlinks) because SPM's
-# .copy and Gradle assets bundle the link, not its target. One generation writes all three;
-# the drift-guard test fails if any committed copy is stale.
+# Canonical output — the single emoji source of truth. Consumers (the Taigi keyboard iOS +
+# Android apps) read this file directly; the drift-guard test fails if the committed copy is stale.
 OUTPUT_PATH = REPO_ROOT / "dist" / "emoji.json"
-OUTPUT_PATHS = [
-    OUTPUT_PATH,
-    REPO_ROOT / "platforms" / "apple" / "Sources" / "TaigiEmojis" / "Resources" / "emoji.json",
-    REPO_ROOT / "platforms" / "android" / "src" / "main" / "assets" / "emoji.json",
-]
 
 # Pinned version. All bundled data/ is Unicode Emoji 17.0. Per-OS rendering gaps (older OS
 # fonts lacking E17 glyphs) are handled by each platform's glyph filter at load (see
@@ -410,10 +404,9 @@ def generate() -> dict:
 def main() -> int:
     document = generate()
     payload = json.dumps(document, ensure_ascii=False, indent=2) + "\n"
-    for path in OUTPUT_PATHS:
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(payload, encoding="utf-8")
-    print(f"wrote {document['meta']['count']} emoji to {len(OUTPUT_PATHS)} paths")
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_PATH.write_text(payload, encoding="utf-8")
+    print(f"wrote {document['meta']['count']} emoji to {OUTPUT_PATH}")
     return 0
 
 

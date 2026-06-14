@@ -18,9 +18,7 @@ merges pinned Unicode + CLDR data with a hand overlay of 台語/華語 search ke
 - `src/overrides.tsv` — the only hand-edited file (add/curate emoji + Taigi keywords)
 - `scripts/generate.py` — generator (stdlib-only); `tests/` — golden specs + drift guard
 - `data/` — pinned upstream snapshots (+ `SOURCES.md`)
-- `dist/emoji.json` — generated artifact both platforms read (committed)
-- `platforms/{apple,android}` — shared Swift/Kotlin `TaigiEmojiStore` modules
-- `Package.swift` — iOS SPM manifest (repo root, conventional)
+- `dist/emoji.json` — the generated artifact both apps read directly (committed)
 
 ## Core Principles
 
@@ -51,14 +49,16 @@ merges pinned Unicode + CLDR data with a hand overlay of 台語/華語 search ke
 | Lint + format check | `make lint` |
 | Re-pull upstream (version bump only) | `make fetch` |
 
-## App integration (follow-on in sibling `taigikeyboard`, not here)
+## App integration (in sibling `taigikeyboard`, not here)
 
-Shared modules expose `TaigiEmojiStore` (`load` + `search` + `filteringUnrenderable`) over
-`dist/emoji.json`. API + setup: `platforms/README.md`. Schema: `.claude/rules/output-contract.md`.
+This repo ships **data only** — `dist/emoji.json`. Each app reads it directly and decodes into its
+own native model; there are no shared Swift/Kotlin modules. Schema: `.claude/rules/output-contract.md`.
 
-- **iOS**: SPM dep on `TaigiEmojis`; native SwiftUI view replaces `ISEmojiView`.
-- **Android**: Gradle module; `TaigiEmojiStore.load(context)` replaces `EmojiLayoutData` (root.txt).
-- **Both**: pass the platform glyph check to `filteringUnrenderable` — test the whole grapheme
+- **iOS**: bundles `dist/emoji.json` as a keyboard-extension resource; a slim `Codable` decodes it
+  and feeds the vendored ISEmojiView via `customEmojis`.
+- **Android**: `assets.srcDir` mounts `dist/`; Moshi decodes `emoji.json` into the existing
+  `EmojiKeyData`/`EmojiSet`/`EmojiCategory` (replaced `root.txt`).
+- **Both**: an app-side glyph filter drops emoji the OS font can't render — test the whole grapheme
   cluster (iOS CoreText, Android `PaintCompat.hasGlyph`), not per-scalar.
 
 ## Communication
