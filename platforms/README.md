@@ -1,8 +1,10 @@
 # Platform Modules
 
-Shared iOS + Android modules wrapping the generated `dist/emoji.json`. Both bundle the same
-JSON via a symlink (`Resources/emoji.json` / `assets/emoji.json` → `../../../../../dist/emoji.json`)
-— one source, no copy, no drift.
+Shared iOS + Android modules wrapping the generated `dist/emoji.json`. Both bundle a
+generated copy (`Resources/emoji.json` / `assets/emoji.json`) — real files, not symlinks,
+because SPM's `.copy` and Gradle assets bundle the link, not its target. One `make build`
+writes all three paths; the drift-guard test (`tests/test_generate.py`) fails if any copy
+is stale — one source, enforced by test, no drift.
 
 ```
 platforms/
@@ -21,7 +23,7 @@ The package manifest is `Package.swift` at the repo root. Consume from the app:
 ```swift
 import TaigiEmojis
 
-let document = try TaigiEmojiStore.loadBundled()
+let document = try TaigiEmojiStore.load()
 let renderable = TaigiEmojiStore.filteringUnrenderable(document) { isEmojiRenderable($0) }
 let hits = TaigiEmojiStore.search("笑", in: renderable)
 ```
@@ -39,7 +41,7 @@ project(":taigi-emojis").projectDir = file("path/to/taigi-emojis/platforms/andro
 ```
 
 ```kotlin
-import com.taigikeyboard.emojis.TaigiEmojiStore
+import com.siansiansu.taigikeyboard.emojis.TaigiEmojiStore
 
 val document = TaigiEmojiStore.load(context)
 val renderable = TaigiEmojiStore.filteringUnrenderable(document) { PaintCompat.hasGlyph(paint, it) }

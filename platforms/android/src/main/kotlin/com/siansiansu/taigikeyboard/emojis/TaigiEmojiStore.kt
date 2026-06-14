@@ -1,7 +1,7 @@
 // NOTE: Not shared-core — Android platform loader (uses android Context + org.json).
 // The value types in TaigiEmoji.kt are the shared-core-clean half.
 
-package com.taigikeyboard.emojis
+package com.siansiansu.taigikeyboard.emojis
 
 import android.content.Context
 import org.json.JSONArray
@@ -13,9 +13,9 @@ object TaigiEmojiStore {
 
     /** Load the emoji document bundled in this library's assets. */
     fun load(context: Context): TaigiEmojiDocument =
-        context.assets.open(ASSET_PATH).use(::parse)
+        context.assets.open(ASSET_PATH).use(::decode)
 
-    fun parse(input: InputStream): TaigiEmojiDocument {
+    fun decode(input: InputStream): TaigiEmojiDocument {
         val root = JSONObject(input.readBytes().decodeToString())
         val metaObject = root.getJSONObject("meta")
         val meta = TaigiEmojiDocument.Meta(
@@ -28,7 +28,7 @@ object TaigiEmojiStore {
                 id = categoryObject.getString("id"),
                 title = categoryObject.getString("title"),
                 order = categoryObject.getInt("order"),
-                emoji = categoryObject.getJSONArray("emoji").objects().map(::parseEmoji),
+                emoji = categoryObject.getJSONArray("emoji").objects().map(::decodeEmoji),
             )
         }
         return TaigiEmojiDocument(meta, categories)
@@ -60,7 +60,7 @@ object TaigiEmojiStore {
         return document.copy(categories = categories)
     }
 
-    private fun parseEmoji(json: JSONObject): TaigiEmoji {
+    private fun decodeEmoji(json: JSONObject): TaigiEmoji {
         val locale = json.getJSONObject("keywordsByLocale")
         return TaigiEmoji(
             base = json.getString("base"),

@@ -3,7 +3,7 @@
 // Schema contract: .claude/rules/output-contract.md.
 // endregion
 
-package com.taigikeyboard.emojis
+package com.siansiansu.taigikeyboard.emojis
 
 data class TaigiEmojiDocument(
     val meta: Meta,

@@ -9,7 +9,7 @@ public enum TaigiEmojiError: Error {
 
 public enum TaigiEmojiStore {
     /// Decode the emoji.json bundled with this package.
-    public static func loadBundled() throws -> TaigiEmojiDocument {
+    public static func load() throws -> TaigiEmojiDocument {
         guard let url = Bundle.module.url(forResource: "emoji", withExtension: "json") else {
             throw TaigiEmojiError.resourceMissing
         }
