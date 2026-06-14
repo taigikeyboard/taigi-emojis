@@ -7,7 +7,7 @@ Change the schema only with a matching update to both platform loaders + the tes
 
 ```jsonc
 {
-  "meta": { "emojiVersion": "E16.0", "cldrVersion": "46", "count": 1881,
+  "meta": { "emojiVersion": "E17.0", "cldrVersion": "48", "count": 1889,
             "generator": "taigi-emojis/scripts/generate.py" },
   "categories": [
     {

@@ -1,9 +1,12 @@
 # Emoji data pipeline. `make build` regenerates dist/emoji.json from data/ + overrides.
 # `make fetch` re-pulls pinned upstream sources (run only when bumping the version pin).
 
-UNICODE_EMOJI_VERSION := 16.0
-CLDR_TAG := release-46
-UNICODE_BASE := https://unicode.org/Public/emoji/$(UNICODE_EMOJI_VERSION)
+UNICODE_EMOJI_VERSION := 17.0
+CLDR_TAG := release-48
+# Unicode has not populated /Public/emoji/17.0/ yet; latest/ serves Emoji 17.0
+# (Version: 17.0, Date: 2025-08-04). Switch to the versioned path once it appears.
+# The committed data/ snapshot is the reproducibility anchor — fetch only on a pin bump.
+UNICODE_BASE := https://unicode.org/Public/emoji/latest
 CLDR_BASE := https://raw.githubusercontent.com/unicode-org/cldr/$(CLDR_TAG)/common
 
 .PHONY: build test lint fetch clean
